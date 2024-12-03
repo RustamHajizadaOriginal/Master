@@ -1,123 +1,123 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Photographer Portfolio</title>
-    <meta name="description" content="Portfolio of John Doe, a professional photographer.">
-    <meta name="keywords" content="photography, portfolio, John Doe">
-    <style>
-        :root {
-            --primary-color: #333;
-            --secondary-color: #ccffcc;
-            --text-color: #fff;
-        }
-        body {
-            font-family: Arial, sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: var(--secondary-color);
-        }
-        header {
-            background-color: var(--primary-color);
-            color: var(--text-color);
-            padding: 1rem;
-            text-align: center;
-        }
-        .portfolio {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            padding: 1rem;
-        }
-        .portfolio img {
-            margin: 0.5rem;
-            width: 200px;
-            height: auto;
-            max-width: 100%;
-        }
-        .description {
-            position: relative;
-            display: inline-block;
-            margin: 0.5rem;
-        }
-        .description a {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            width: 100px;
-            height: 100px;
-            border-radius: 50%;
-            background-color: rgba(0, 0, 0, 0.5);
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            opacity: 0;
-            transition: opacity 0.3s;
-        }
-        .description:hover a {
-            opacity: 1;
-        }
-        .contact-form {
-            max-width: 600px;
-            margin: 2rem auto;
-            padding: 1rem;
-            background-color: #fff;
-            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-        }
-        .contact-form input, .contact-form textarea {
-            width: 100%;
-            padding: 0.5rem;
-            margin: 0.5rem 0;
-            border: 1px solid #ccc;
-        }
-        .contact-form button {
-            padding: 0.5rem 1rem;
-            background-color: var(--primary-color);
-            color: var(--text-color);
-            border: none;
-            cursor: pointer;
-        }
-    </style>
-</head>
-<body>
-    <header>
-        <h1>Rustam Hajizada Photography</h1>
-    </header>
-    <main>
-        <section class="portfolio">
-            <div class="description">
-                <img src="photo1.jpg" alt="Photo 1">
-                <a href="#">Your Name</a>
-            </div>
-            <div class="description">
-                <img src="photo2.jpg" alt="Photo 2">
-                <a href="#">Your Name</a>
-            </div>
-            <div class="description">
-                <img src="photo3.jpg" alt="Photo 3">
-                <a href="#">Your Name</a>
-            </div>
-            <div class="description">
-                <img src="photo4.jpg" alt="Photo 4">
-                <a href="#">Your Name</a>
-            </div>
-        </section>
-        <section class="contact-form">
-            <h2>Contact Me</h2>
-            <form action="submit_form.php" method="post">
-                <label for="name">Your Name</label>
-                <input type="text" id="name" name="name" placeholder="Your Name" required>
-                <label for="email">Your Email</label>
-                <input type="email" id="email" name="email" placeholder="Your Email" required>
-                <label for="message">Your Message</label>
-                <textarea id="message" name="message" placeholder="Your Message" rows="5" required></textarea>
-                <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
-</body>
-</html>
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Learner Portfolio</title>
+        <meta name="description" content="Portfolio of Rustam Hajizada, a professional Learner.">
+        <meta name="keywords" content="website, portfolio, Rustam Hajizada">
+        <style>
+            :root {
+                --primary-color: #333;
+                --secondary-color: #ccffcc;
+                --text-color: #fff;
+            }
+            body {
+                font-family: Arial, sans-serif;
+                margin: 0;
+                padding: 0;
+                background-color: var(--secondary-color);
+            }
+            header {
+                background-color: var(--primary-color);
+                color: var(--text-color);
+                padding: 1rem;
+                text-align: center;
+            }
+            .portfolio {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                padding: 1rem;
+            }
+            .portfolio img {
+                margin: 0.5rem;
+                width: 200px;
+                height: auto;
+                max-width: 100%;
+            }
+            .description {
+                position: relative;
+                display: inline-block;
+                margin: 0.5rem;
+            }
+            .description a {
+                position: absolute;
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%, -50%);
+                width: 100px;
+                height: 100px;
+                border-radius: 50%;
+                background-color: rgba(0, 0, 0, 0.5);
+                color: white;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                text-decoration: none;
+                opacity: 0;
+                transition: opacity 0.3s;
+            }
+            .description:hover a {
+                opacity: 1;
+            }
+            .contact-form {
+                max-width: 600px;
+                margin: 2rem auto;
+                padding: 1rem;
+                background-color: #fff;
+                box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            }
+            .contact-form input, .contact-form textarea {
+                width: 100%;
+                padding: 0.5rem;
+                margin: 0.5rem 0;
+                border: 1px solid #ccc;
+            }
+            .contact-form button {
+                padding: 0.5rem 1rem;
+                background-color: var(--primary-color);
+                color: var(--text-color);
+                border: none;
+                cursor: pointer;
+            }
+        </style>
+    </head>
+    <body>
+        <header>
+            <h1>Rustam Hajizada website</h1>
+        </header>
+        <main>
+            <section class="portfolio">
+                <div class="description">
+                    <img src="photo1.jpg" alt="Photo 1">
+                    <a href="https://www.instagram.com/rustamhajizada/"target="_blank">Instagram</a>
+                </div>
+                <div class="description">
+                    <img src="photo2.jpg" alt="Photo 2">
+                    <a href="https://www.facebook.com/rustamhajizada/"target="_blank">Facebook</a>
+                </div>
+                <div class="description">
+                    <img src="photo3.jpg" alt="Photo 3">
+                    <a href="https://github.com/RustamHajizadaOriginal"target="_blank">GitHub</a>
+                </div>
+                <div class="description">
+                    <img src="photo4.jpg" alt="Photo 4">
+                    <a href="https://www.linkedin.com/in/rustamhajizada/" target="_blank">Linkedin</a>
+                </div>
+            </section>
+            <section class="contact-form">
+                <h2>Contact Me for some ideas or suggestions</h2>
+                <form action="submit_form.php" method="post">
+                    <label for="name">Your Name & Surname</label>
+                    <input type="text" id="name" name="name" placeholder="Your Name& Surname" required>
+                    <label for="email">Your Email</label>
+                    <input type="email" id="email" name="email" placeholder="Your Email" required>
+                    <label for="message">Your Message</label>
+                    <textarea id="message" name="message" placeholder="Your Message, suggestions, ideas and whatever you want to share with me" rows="5" required></textarea>
+                    <button type="submit">By clicking here you will send the message right to me</button>
+                </form>
+            </section>
+        </main>
+    </body>
+    </html>
