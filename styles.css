@@ -55,10 +55,13 @@ header {
   justify-content: center;
   text-decoration: none;
   opacity: 0;
-  transition: opacity 0.3s;
+  /* transition: opacity 0.3s; */
+  cursor: pointer;
+  transition: transform 3.9s ease-in-out;
 }
 .description:hover a {
   opacity: 1;
+  transform: scale(1.1);
 }
 .contact-form {
   max-width: 600px;
@@ -82,15 +85,15 @@ header {
   cursor: pointer;
   transform: background-color 0.9s;
 }
-.contact-formbutton: hover {
+.contact-formbutton:hover {
   background-color: #555;
 }
 
-.sensitive-cursor {
+/* .sensitive-cursor {
   cursor: pointer;
   transition: transform 3.9s ease-in-out;
 }
 
 .sensitive-cursor:hover {
   transform: scale(1.1);
-}
+} */
