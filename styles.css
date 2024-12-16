@@ -3,6 +3,8 @@
   --secondary-color: #ccffcc;
   --text-color: #fff;
   --background-opacity: 0.8;
+  --font-size-base: 16px;
+  --spacing-base: 1rem;
 }
 
 body {
@@ -19,8 +21,9 @@ body {
 header {
   background-color: var(--primary-color);
   color: var(--text-color);
-  padding: 1rem;
+  padding: var(--spacing-base);
   text-align: center;
+  role: banner;
 }
 
 .portfolio {
@@ -100,6 +103,7 @@ header {
 
 .contact-form button:hover {
   background-color: #555;
+  transform: scale(1.05);
 }
 
 /* Accessibility improvements */
@@ -119,4 +123,15 @@ header {
   .portfolio img {
     width: 100%;
   }
+}
+@media (prefers-color-scheme: dark) {
+  :root {
+    --primary-color: #ccc;
+    --secondary-color: #333;
+    --text-color: #fff;
+  }
+}
+
+html {
+  scroll-behavior: smooth;
 }
